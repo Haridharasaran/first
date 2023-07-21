@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    width: 100%;
+    height: 100vh;
+    background: #151A20 !important;
+}
+
+section {
+    /* min-height: 120vh; */
+}
+
+.back {
+    background-image: url(./img/bg.svg );
+    background-size: contain;
+
+    background-repeat: no-repeat;
+}
+
+.font1 {
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.font2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon {
+    line-height: 15px;
+
+}
+
+.main {
+    margin: 170px 0 !important;
+}
+
+.three {
+    color: white;
+}
+
+.four {
+    color: yellow;
+}
+
+.five {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    box-shadow: 0px 15px 30px rgba(20, 102, 204, 0.5);
+    border-radius: 13px;
+}
+
+/* Next section */
+.Новинки {
+    /* min-height: 110vh; */
+}
+
+.bov {
+    /* margin-top: 75px; */
+    object-fit: cover;
+
+}
+
+.yelw {
+    /* width: 188px;
+height: 60px; */
+    background: #FFC30D !important;
+    border-radius: 10px 0px !important;
+    /* padding: 10px 35px !important; */
+    /* margin: 26px 50px 0 0; */
+    position: absolute;
+    bottom: 0;
+    right: 22px;
+}
+
+.hai {
+    background: linear-gradient(180deg, rgba(21, 26, 32, 0) 0%, rgba(21, 26, 32, 0.99) 100%);
+}
+
+/* Cur section */
+.hed1 {
+    font-size: 30px;
+    color: white;
+}
+
+.Фильмы {
+    /* min-height: 70vh; */
+}
+
+
+/* sidenav */
+
+.side-nav ul{
+    list-style: none;
+}
+.side-nav ul li{
+    margin-bottom: 30px;
+}
+.side-nav{
+    width: 55px;
+    height: 540px;
+    background: #1E242C;
+box-shadow: 9px 4px 18px 10px rgba(0, 0, 0, 0.25);
+border-radius: 0px 50px 50px 0px;
+position: fixed;
+bottom: 10px;
+z-index: 10;
+}
+/* Сериалы */
+.Сериалы {
+    /* min-height: 50vh; */
+}
+
+
+
+
+.footer {
+    /* min-height: 15vh; */
+    background-color: #1E242C;
+}
+
+.cright {
+    color: #8E8E8E;
+    font-size: 14px;
+}
+
+.cleft {
+    color: white;
+    font-size: 18px;
+}
+
+/* section  */
+.vidqu {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    width: 170px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.seven {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    color: white;
+
+}
+
+.vidqu1 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(270deg, #8743FF 0%, #4136F1 100%);
+    width: 90px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.rightbar {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 25px;
+
+}
+
+.whitw {
+    color: white;
+}
+
+.kill {
+    color: yellow;
+}
+
+
+@media (max-width:991px) {
+    .main {
+        text-align: center;
+    }
+
+    .second {
+        width: 100%;
+    }
+
+    .btn2 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .yelw {
+        position: absolute;
+        right: 0;
+    }
+    .main {
+        margin: 40px 0 !important;
+    }
+}
+
+@media (max-width:768px) {
+   
+
+    .main {
+        margin: 40px 0 !important;
+    }
+
+    .hello {
+        width: 100% !important;
+    }
+    .cleft{
+        font-size: 10px !important;
+       
+    }
+   
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .leftbt img {
+        margin: 0 !important;
+
+    }
+
+    .leftbt span {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+
+    }
+
+    .rightbt .fir {
+        position: absolute;
+        right: 0;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .font1 {
+        font-size: 20px !important;
+    }
+
+    .font2 {
+        font-size: 10px !important;
+    }
+    .side-nav ul li img{
+        width: 20px;
+        height: 20px;
+    }
+    .side-nav{
+        width: 35px;
+        height: 500px;
+        z-index: 10;
+    }
+
+    .cleft{
+        font-size: 12px !important;
+    }
+    .icon1{
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+    }
+    .font{
+        font-size: 12px !important;
+    }
+    .cright{
+        text-align: center;
+    }
+    .leftbt img{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .vidqu {
+       font-size: small !important;
+       width: 150px;
+    }
+    .air p{
+        line-height: 20px !important;
+    }
+   .side3{
+    text-align: center !important;
+   }
+   .side1{
+    text-align: center;
+    margin-right: 25px !important;
+   }
+}
